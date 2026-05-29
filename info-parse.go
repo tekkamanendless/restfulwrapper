@@ -139,7 +139,7 @@ func handleField(info *RestfulFunctionInfo, field reflect.StructField) error {
 
 	inputFieldFunction, err := registeredFunction(apiTagValue, field, info)
 	if err != nil {
-		return fmt.Errorf("%s: %w", field.Name, err)
+		return fmt.Errorf("api tag %q: %w", apiTagKey, err)
 	}
 	inputField.Function = inputFieldFunction
 
