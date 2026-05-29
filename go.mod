@@ -1,6 +1,6 @@
 module github.com/threatmate/restfulwrapper
 
-go 1.24.5
+go 1.25
 
 require (
 	github.com/emicklei/go-restful/v3 v3.13.0
