@@ -1,4 +1,4 @@
-module github.com/threatmate/restfulwrapper
+module github.com/tekkamanendless/restfulwrapper
 
 go 1.25
 

@@ -16,7 +16,7 @@ import (
 	"github.com/emicklei/go-restful/v3"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/threatmate/restfulwrapper"
+	"github.com/tekkamanendless/restfulwrapper"
 )
 
 type API struct{}
